@@ -1,0 +1,12 @@
+body {
+	background-image: url(image.jpg);
+	background-size: cover;
+}
+h1 {
+color: red;
+background: black;
+text-align: center; border: 10px solid blue}
+p {
+	color: yellow
+
+}

@@ -1,0 +1,16 @@
+*{text-align: center;}
+li {
+	list-style: upper-roman;
+}
+.list {
+	background-color: rgba(0, 255, 0, 0.25);
+	border: 5px solid rgba(0, 0, 255, 0.5);
+	margin: 5px 200px;
+	width: 150px
+	}
+	footer {
+		border: solid rgba(125, 250, 170, 0.8);
+		padding: rgba(140, 80, 210, 1);
+		background: red;
+		background-image: url(G:\New folder\IMAGE\`Wall\death_valley_2-wallpaper-1366x768);
+	}
