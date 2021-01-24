@@ -32,8 +32,7 @@ li a:hover {
 .cover{ 
   margin: 0px;
   background-image: url("unnamed.jpg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+  background-size: contain;
   padding: 20vh;
  }
  .head{
@@ -48,6 +47,8 @@ li a:hover {
  .wrapper{
   width:100%;
   padding-left: 0%;
+  display: flex;
+  flex-wrap: wrap;
   display: grid;
   grid-template-columns: auto auto;
   grid-row-gap: 50px ;
@@ -118,5 +119,12 @@ footer{
 small{
   text-align: center;
 }
-
-
+@media (min-width: 900px){
+.cover{
+  background-size: 100% 100%;
+}
+.wrapper{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+}
