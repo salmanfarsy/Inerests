@@ -49,7 +49,6 @@ li a:hover {
   padding-left: 0%;
   display: flex;
   flex-wrap: wrap;
-  display: grid;
   grid-template-columns: auto auto;
   grid-row-gap: 50px ;
   column-gap: 300px;
@@ -119,12 +118,16 @@ footer{
 small{
   text-align: center;
 }
-@media (min-width: 900px){
+@media (min-width: 1300px){
 .cover{
   background-size: 100% 100%;
 }
 .wrapper{
   display: grid;
   grid-template-columns: auto auto;
+  grid-row-gap: 50px ;
+  column-gap: 300px;
 }
+
+
 }
