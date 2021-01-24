@@ -122,11 +122,11 @@ small{
 .cover{
   background-size: 100% 100%;
 }
-.wrapper{
+/* .wrapper{
   display: grid;
   grid-template-columns: auto auto;
   grid-row-gap: 50px ;
-  column-gap: 300px;
+  column-gap: 300px; */
 }
 
 
