@@ -45,15 +45,13 @@ li a {
     right:10px;
   }
   .cover{
-     width: 74.25%;
+     width: auto;
   height: 120px;
   padding: 180px;
-  margin:-8px; 
   margin-bottom: 0%;
     background-image: url(blocks-TkEPQPWr2sY-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
     background-position: center;}
     /* /* text-align: left;
     overflow: hidden;  */
