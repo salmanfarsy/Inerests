@@ -108,3 +108,9 @@ footer{
   small{
     text-align: center;
   }
+  @media (max-width: 720px){
+    .movies{
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }

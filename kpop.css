@@ -189,3 +189,28 @@ ul {
 small{
   text-align: center;
 }
+@media (max-width: 720px){
+  .text{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 90%;
+    text-align: left;
+    text-shadow: 1px 1px brown;
+    line-height: 125%;
+    word-spacing: 10px;
+    
+  }
+  .text-cover{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+  margin-left:8%;}
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
