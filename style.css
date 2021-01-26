@@ -69,6 +69,7 @@ li a {
     line-height: 100%;
     font-family: sans-serif;
     margin-right: 10%;
+    margin-left: 5%;
   }
  /* @media only screen and (max-width: 850px)
   {.text{
@@ -83,7 +84,7 @@ li a {
   }*/
 .head{
  /* margin-left: -140px;*/
-  font-size: 3vw;
+  font-size: 2rem;
   /*margin-top: -45px;*/
 }
 .push{
@@ -191,7 +192,7 @@ li a {
 @media (max-width: 500px){
   .image{
     height: auto;
-    width: 100%;
+    width: 97%;
   }
   .cover{
     width: 100%
